@@ -6,19 +6,29 @@ This is a first preliminary analysis on the dataset published by Acevedo, C. M. 
 The dataset is open for download using the link https://data.mendeley.com/datasets/h5pcn99zw4/4 (2 MB). The dataset consists of tabular data (csv format). Actually, the folder contains 5 ".csv" files.
 
 CONTROLS - includes data from healthy individuals
+
 AIR - includes data from the measurements of the ambient air during the experiment
+
 SMOKERS - includes the data from individuals with an active habit of smoking
+
 COPD - includes the patients diagnosed with COPD
+
 general_data_from_the_dataset - Demographic information for each individual
 
 The whole dataset includes 2 measurements for each of the 8 metal oxide sensors for 10 Controls, 20 Patients, 4 Smokers and 5 from the Air.
 
 The format of the title of each column translates as follows: S # (index of Sensor) | (A D C S) # (index of individual) | # (index for repeated measurement)
+
 S- refers to the Sensor
+
 A- refers to the measurement of the ambient Air during the measurements for each group
+
 D- refers to patients diagnosed with COPD
+
 C- refers to the Healthy individuals (Controls)
+
 S (this refers to the second S in the Parenthesis) - refers to the Smokers
+
 '#' - refers to the actual number (as index) of the Sensor, patient, healthy individual, Smoker or measurement of the Air and finally the number of measurement
 
 
